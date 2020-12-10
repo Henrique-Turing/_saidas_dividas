@@ -15,10 +15,6 @@
 
 	<link rel="shortcut icon" href="logo.ico" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="escript_.js"></script>
-	<script src="index5.js"></script>
-	<script src="index6.js"></script>
-	<script src="index7.js"></script>
 	<!-- / Yoast SEO plugin. -->
 
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -566,8 +562,8 @@
 									</div>
 								</div>
 							</div>
-							<div style="margin-left: 50%; transform: translateX(-50%);">
-								<h4>SELECIONE O TIPO DE DÍVIDA</h4><br>
+							<div style="margin-left: 55%; transform: translateX(-60%);">
+								<h4>SELECIONE O TIPO DE DÍVIDA PARA O QUAL DESEJA REALIZAR A PERÍCIA</h4><br>
 							</div>
 							<div class="wpb_row vc_row  vc_row-fluid  mk-fullwidth-false  attched-false vc_row-fluid">
 								<div class="vc_col-sm-4 wpb_column column_container ">
@@ -797,8 +793,83 @@
 
 	</div>
 	<script type="text/javascript">
-	</script>
+	// Init aplication namespace 
+var abb = {};
+var php = {};
 
+var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;
+var mk_captcha_placeholder = "Enter Captcha",
+    mk_captcha_invalid_txt = "Invalid. Try again.",
+    mk_captcha_correct_txt = "Captcha correct.",
+    mk_responsive_nav_width = 1140,
+    mk_grid_width = 1240,
+    mk_ajax_search_option = "header",
+    mk_preloader_txt_color = "#444444",
+    mk_preloader_bg_color = "#ffffff",
+    mk_accent_color = "#eae3d7",
+    mk_preloader_bar_color = "#ffffff",
+    mk_preloader_logo = "";
+var mk_header_parallax = false,
+    mk_banner_parallax = false,
+    mk_page_parallax = false,
+    mk_footer_parallax = false,
+    mk_body_parallax = false,
+    mk_no_more_posts = "No More Posts";
+
+function is_touch_device() {
+    return ('ontouchstart' in document.documentElement);
+}
+
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    
+    $('.tgl').before('<img id="imgtg" src="setinhad.ico" />');
+    
+    $('.tgl').css('display', 'none')
+    
+    $('img', '#box-toggle').click(function() {
+        
+    $(this).next().slideToggle('fast')
+    .siblings('.tgl:visible').slideToggle('fast');
+   
+    
+    });
+
+    })
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    
+    $('.tgl1').before('<img id="imgtg" src="setinhad.ico" />');
+    
+    $('.tgl1').css('display', 'none')
+    
+    $('img', '#box-toggle1').click(function() {
+        
+    $(this).next().slideToggle('fast')
+    .siblings('.tgl1:visible').slideToggle('fast');
+    
+    
+    });
+
+    })
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    
+    $('.tgl2').before('<img id="imgtg" src="setinhad.ico" />');
+    
+    $('.tgl2').css('display', 'none')
+    
+    $('img', '#box-toggle2').click(function() {
+        
+    $(this).next().slideToggle('fast')
+    .siblings('.tgl2:visible').slideToggle('fast'); 
+    });
+
+    })
+	</script>
 	</div>
 
 	<a href="#" class="mk-go-top"><i class="mk-icon-chevron-up"></i></a>
