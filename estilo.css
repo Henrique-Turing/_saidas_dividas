@@ -3,8 +3,6 @@ body {
     background-color:#fff; 
 }
 .selecione{
-    margin-left: 56%; 
-    transform: translateX(-50%);
 }
 
 #imgtg{
@@ -245,6 +243,7 @@ a:hover {
     }
     .selecione{
         display: inline;
+    }
 }
 @media handheld, only screen and (max-width: 1240px){
     .mk-go-top,.mk-quick-contact-wrapper{bottom:70px !important;
