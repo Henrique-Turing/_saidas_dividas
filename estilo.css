@@ -239,8 +239,7 @@ a:hover {
         padding:20px 0 !important;
     }
     .selecione{
-        margin-left: 10% !important;
-        transforme: 
+        width: 100%;
     }
 }
 @media handheld, only screen and (max-width: 1240px){
