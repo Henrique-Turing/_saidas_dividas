@@ -245,6 +245,7 @@ a:hover {
     }
     .selecione{
        display: inline;
+        margin-left: 10%;
         
     }
 }
