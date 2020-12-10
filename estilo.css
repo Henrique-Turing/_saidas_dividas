@@ -244,10 +244,7 @@ a:hover {
         padding:20px 0 !important;
     }
     .selecione{
-       display: inline-block;
-        margin-left: 10px;
-        
-    }
+        display: inline;
 }
 @media handheld, only screen and (max-width: 1240px){
     .mk-go-top,.mk-quick-contact-wrapper{bottom:70px !important;
